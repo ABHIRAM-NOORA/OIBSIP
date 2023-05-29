@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FIGHT CLUB
+        </title>
+        <style type="text/css">
+        *{padding: 0; margin: ;box-sizing: border-box;}
+        header{
+            width: 100%;
+            height: 150vh;
+            background:linear-gradient(rgba(0,0,0, 0.8),rgba(0,0,0, 0.2)),
+             url(https://wallpaperaccess.com/full/1292533.png);
+            background-size: cover;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        nav{
+            width: 100%;
+            height: 100px;
+            text-decoration:none;
+            color:red;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo{
+            
+            font-size: 5em;
+            letter-spacing: 2px;
+
+        }
+        .menu a{
+            text-decoration: none;
+            color: whitesmoke;
+            padding-left: 50px ;
+            padding-right: 40 px;
+            font-size: 20 px;
+            position: relative;
+        }
+        .menu a:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height:100%;
+            border-bottom: 2px solid indianred;
+            transition: 0.4s linear;
+        }
+        .menu a:hover:before{
+            width: 90%;
+        }
+        .register a{
+            text-decoration: none;
+            color: whitesmoke;
+            padding-left: 40px ;
+            padding-right: 40 px;
+            font-size: 20 px;
+            background: indianred;
+            border border-radius: 8px;
+            transition: 0.4s;
+        }
+        .register a:hover{
+            background: transparent;
+            border: 1px solid indianred;
+        }
+         .h-txt{
+            max-width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: white;
+         }
+         .h-txt span{
+            letter-spacing:5px;
+         }
+         .h-txt h1
+         {
+            font-size: 3.5em;
+         }
+         .h-txt a{
+         
+            text-decoration:none;
+            background: indianred;
+            color: white;
+            padding: 10px 20px;
+            letter-spacing: 5px;
+            transition: 0.4s;
+         }
+         .h-txt a:hover{
+            background: transparent;
+            border: 1px solid indianred;
+            
+        
+        </style>
+        </head>
+   
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    FIGHT CLUB
+                    
+                </div>
+                <div class="menu">
+                    <a href="#">HOME</a>
+                    <a href="#">our locations</a>
+                    <a href="#">offers</a>
+                    <a href="#">contact</a>
+                    <a href="#">community</a>
+
+                </div>
+                <div class="register">
+                    <a href="#">REGISTER</a>
+                </div>
+    
+            </nav>
+            <section  class="h-txt">
+                <span>
+                    FIRST RULE OF FIGHT CLUB
+                </span>
+                <h1>
+                    Don't talk about fight CLUB</
+                </h1>
+                <a href="#">JOIN OUR CLUB</a>
+            </section>
+
+        </header>
+
+    </body>
+    
+</html>
